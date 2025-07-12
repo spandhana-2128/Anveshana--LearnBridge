@@ -1,0 +1,7 @@
+flask
+google-cloud-speech
+google-cloud-translate
+google-cloud-texttospeech
+transformers
+moviepy
+
