@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnBridge - Revolutionize Learning</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #00c6ff, #0072ff);
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        .header {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.9);
+        }
+        .navbar a {
+            text-decoration: none;
+            color: #0072ff;
+            margin: 0 15px;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+        .navbar a:hover {
+            color: #ff4081;
+        }
+
+
+.hero {
+    text-align: center;
+    color: #fff;
+    padding: 100px 20px;
+    background: url('images/kidplaying.jpg') center/cover no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    background-blend-mode: overlay;
+    height: 100vh;
+}
+
+.hero h1 {
+    font-size: 120px; /* Increased font size */
+    margin-bottom: 20px;
+    animation: fadeInUp 1s ease-in-out;
+    color: black;
+    font-family: 'Londrina Sketch', cursive; /* Applied Darumadrop One font */
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
+}
+
+.hero h2, .hero p {
+    font-size: 40px;
+    max-width: 700px;
+    margin: auto;
+    animation: fadeInUp 1.5s ease-in-out;
+    color: black;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 600;
+    line-height: 1.5;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
+}
+
+
+
+        .download-button {
+            background-color: #ff4081;
+            color: #fff;
+            padding: 15px 40px;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 30px;
+            transition: background 0.3s, transform 0.3s;
+            display: inline-block;
+            margin-top: 30px;
+        }
+        .download-button:hover {
+            background-color: #f50057;
+            transform: translateY(-5px);
+        }
+        .vision-section {
+            background-color: #f8f9fa;
+            padding: 50px 20px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin: 40px auto;
+            width: 80%;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .vision-content {
+            flex: 1;
+            padding-right: 20px;
+        }
+        .vision-image {
+            max-width: 40%;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .vision-section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .vision-section p {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.6;
+        }
+        .step {
+            background-color: #fff;
+            padding: 40px;
+            margin: 40px auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            width: 80%;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            transition: transform 0.3s;
+        }
+        .step:hover {
+            transform: scale(1.03);
+        }
+        .step i {
+            font-size: 50px;
+            color: #0072ff;
+        }
+        .step-content {
+            flex: 1;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #fff;
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="nav">
+          <nav class="navbar">
+            <a href="#vision">Our Vision</a>
+            <a href="http://localhost:5000/dubnow">Video Dubbing</a>
+            <a href="http://localhost:5000/summarizenow">Smart Summarization</a>
+            <a href="http://localhost:5000/smarttranslate">Smart Translation</a>
+        </nav>
+        
+        </div>
+    </div>
+    <div class="hero">
+      <h1>LEARNBRIDGE</h1>
+        <h2>Revolutionize Educational Content with AI</h2>
+        <p>Simplify video dubbing, summarization, and smart translation to make learning accessible for everyone.</p>
+    </div>
+    <div class="vision-section">
+        <div class="vision-content">
+            <h2>Our Vision</h2>
+            <p>"Breaking language barriers in education, our platform empowers kids in rural areas by translating educational content into their native language in real time. With advanced AI-driven Speech-to-Text, machine translation, and Text-to-Speech technologies, we make learning accessible, inclusive, and impactful—even in regions with limited internet access—ensuring every child has the opportunity to grow and succeed."</p>
+        </div>
+        <img src="images/kid.jpg" alt="Rural Kids Learning" class="vision-image">
+    </div>
+    <div class="step">
+        <i class="fas fa-language"></i>
+        <div class="step-content">
+            <h2>Video Dubbing</h2>
+            <p>Seamlessly translate and dub YouTube videos into multiple languages for a global learning experience.</p>
+            <a href="http://localhost:5000/dubnow" class="download-button">Dub Now</a>
+        </div>
+    </div>
+    <div class="step">
+        <i class="fas fa-align-left"></i>
+        <div class="step-content">
+            <h2>Smart Summarization</h2>
+            <p>Quickly generate concise summaries of lengthy videos to save time and enhance understanding.</p>
+            <a href="http://localhost:5000/summarizenow" class="download-button">Summarize Now</a>
+        </div>
+    </div>
+  
+        <div class="step">
+            <i class="fas fa-question-circle"></i>
+            <div class="step-content">
+                <h2>Smart translation</h2>
+                <p>Smart Translation helps translate documents into the required language quickly and efficiently. It leverages advanced algorithms to ensure accurate and contextually appropriate translations, enhancing communication across languages.</p>
+                <a href="http://localhost:5000/smarttranslate" class="download-button">Smart Translation</a>
+            </div>
+        </div>
+        
+    
+    <div class="footer">
+        <p>&copy; 2025 LearnBridge. All rights reserved. | <a href="#">Privacy Policy</a></p>
+    </div>
+</body>
+</html>
